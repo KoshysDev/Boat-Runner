@@ -91,12 +91,13 @@ Material:
     m_Ints: []
     m_Floats:
     - Depth_fade: 1
-    - FoamAmount: 2
+    - FoamAmount: 1
     - FoamCutoff: 1.1
-    - FoamScale: 100
+    - FoamScale: 150
     - FoamSpeed: 1
     - Foam_Noise_Scale: 1
     - Foam_Ripple_Speed: 1
+    - Noise_Scale: 1
     - RefractionScale: 1
     - RefractionSpeed: 0.05
     - RefractionStrength: 3
@@ -105,6 +106,8 @@ Material:
     - Water_Height: 1
     - Water_Noise_Scale: 1
     - Water_Speed: 1
+    - Wave_Heigh: 4.25
+    - Wave_Speed: 0.19
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1

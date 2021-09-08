@@ -232,6 +232,9 @@
         },
         {
             "m_Id": "3d4a35dba33e4aa0a0e3d5c7694b162a"
+        },
+        {
+            "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
         }
     ],
     "m_StickyNoteDatas": [],
@@ -1972,7 +1975,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
     "m_ObjectId": "33b78ff82e5b45cc9ee1979a5457c617",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Tiling And Offset",
     "m_DrawState": {
@@ -2054,7 +2057,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
     "m_ObjectId": "347a9c9e77fd43d694ea47899ad749bc",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Position",
     "m_DrawState": {
@@ -2309,7 +2312,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "3b6c8ae203d149ca802a8876f438bfc7",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -2474,7 +2477,7 @@
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
     "m_ObjectId": "3f0a99415fdf489790cefd86d8cd309a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Divide",
     "m_DrawState": {
@@ -2512,7 +2515,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "3f21e5b5dbec4c00b35768f7715455bd",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -2912,7 +2915,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "4d2e63e2a8754950a3d8b03fbe9ec35f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -3837,7 +3840,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
     "m_ObjectId": "852dcd6e311a4dd7be57fc4e1f9844c3",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Time",
     "m_DrawState": {
@@ -4577,6 +4580,17 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "aafebd3b60ee47c19ca8842d5898c155",
+    "m_Title": "Waves",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
 }
 
 {
@@ -5411,7 +5425,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "d544356e03a343658afe8cd36b78ece8",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -5862,7 +5876,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "efd5b371732c4f5586510b60ab03e43d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -5967,7 +5981,7 @@
     "m_Type": "UnityEditor.ShaderGraph.GradientNoiseNode",
     "m_ObjectId": "f4396a146779441b9e04b6a9971186d2",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Gradient Noise",
     "m_DrawState": {
@@ -6020,7 +6034,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector3Node",
     "m_ObjectId": "f7fb93b905694cbd9c2813d37878a294",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "aafebd3b60ee47c19ca8842d5898c155"
     },
     "m_Name": "Vector 3",
     "m_DrawState": {

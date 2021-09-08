@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class WaterFloater : MonoBehaviour
 {
+    public Transform[] floaterPoints;
+
     public float underWaterDrag = 3f;
     public float underWaterAngularDrag = 1f;
     public float airDrag = 0f;
@@ -17,6 +19,8 @@ public class WaterFloater : MonoBehaviour
 
     bool _underWater;
 
+    int _floatersUnderwater;
+
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -24,19 +28,26 @@ public class WaterFloater : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float difference = transform.position.y - waterHeight;
+        _floatersUnderwater = 0;
 
-        if(difference < 0)
+        for (int i = 0; i < floaterPoints.Length; i++)
         {
-            _rigidbody.AddForceAtPosition(Vector3.up * floatingPower * Mathf.Abs(difference), transform.position, ForceMode.Force);
+            float difference = floaterPoints[i].position.y - waterHeight;
 
-            if (!_underWater)
+            if (difference < 0)
             {
-                _underWater = true;
-                SwitchUnderWaterState(true);
+                _rigidbody.AddForceAtPosition(Vector3.up * floatingPower * Mathf.Abs(difference), floaterPoints[i].position, ForceMode.Force);
+                _floatersUnderwater += 1;
+
+                if (!_underWater)
+                {
+                    _underWater = true;
+                    SwitchUnderWaterState(true);
+                }
             }
         }
-        else if (_underWater)
+        
+        if (_underWater && _floatersUnderwater == 0)
         {
             _underWater = false;
             SwitchUnderWaterState(false);
