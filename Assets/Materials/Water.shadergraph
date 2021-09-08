@@ -3889,7 +3889,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 1.5,
+    "m_Value": 1.0,
     "m_DefaultValue": 10.0,
     "m_Labels": []
 }
@@ -4588,8 +4588,8 @@
     "m_ObjectId": "aafebd3b60ee47c19ca8842d5898c155",
     "m_Title": "Waves",
     "m_Position": {
-        "x": 10.0,
-        "y": 10.0
+        "x": -519.0,
+        "y": -1177.0
     }
 }
 
